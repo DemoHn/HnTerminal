@@ -21,6 +21,8 @@ var CommandSet = [
         "helpdes": "列出命令的帮助。"},
     {"name": "cls", "cmd": "Cls()",
         "helpdes": "清除屏幕。"},
+    {"name": "clear", "cmd": "Cls()",
+        "helpdes": "清除屏幕。"},
     {"name": "clsall", "cmd": "Clsall()",
         "helpdes": "清除屏幕（包括iframe）"},
     {"name": "clsa", "cmd": "Clsall()",
@@ -77,7 +79,7 @@ var TerminalIO = function (parent_id) {
         var i;
         var vmilth;
         var maxlth = 0;
-        vm.attr("rows", val.length);   //行最大
+        vm.attr("rows", val.length+1);   //行最大
         for (i = 0; i < val.length; i++) {       //找列最大的地方
             vmilth = val[i].replace(/[^\x00-\xff]/g, "xx").length;
             if (vmilth >= maxlth) {
@@ -358,7 +360,7 @@ var TerminalCore = function (parent_id) {
                     keyc = window.event.keyCode;
                 }
                 if (IO_Config.linemode == "SingleLine") {
-                    if (keyc == 13) {
+                    if (keyc == 13 && e.ctrlKey!=true) {
                         str = cid.val();
                         cid.remove();
                         if (IO_Config.TerminalMode != "Default") {
@@ -371,7 +373,7 @@ var TerminalCore = function (parent_id) {
                         cmd.OutForeString();
                     }
                 } else if (IO_Config.linemode == "MultiLine") {
-                    if (e.ctrlKey == true && e.shiftKey == true && e.which == 90) {
+                    if (e.ctrlKey == true && e.which == 13) { //C-Enter
                         str = cid.val();
                         cid.remove();
                         if (IO_Config.TerminalMode != "Default") {
@@ -438,8 +440,8 @@ var NavLineNumber = function () {
             resultnum+="&nbsp;&nbsp;";
             $("#Output_Head_"+num).prepend("<a name=L"+num+"><span id=LineNumber_" +num +" class=LineNum_" + css_style_name + "></span></a>");
                 $("#LineNumber_"+num).html(resultnum);
-            chei =regnum.exec($("#all").css("width")) - regnum.exec(cln.css("width")) + "px";
-            cid.css("width", chei);
+            chei =$(document).width(); //- regnum.exec(cln.css("width")) + "px";
+            cid.css("width", "99%");
         }
     }
 };
@@ -466,6 +468,7 @@ function o(text) {
     io.Output(text + "<br />");
 }
 //输入单行字符
+//TODO 修正si()的 bug
 function si() {
     TerminalIO(IO_Config.parent_id).SingleInput(IO_Config.style.Output);
     TerminalCore(IO_Config.parent_id).PROCESSINPUT();
