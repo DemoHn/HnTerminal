@@ -1,9 +1,8 @@
-<!--这是终端的原始版本 -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="style/TerminalStyle.css"/>
     <script type="text/javascript" src="ManagePlugins.js"></script>
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
@@ -12,11 +11,20 @@
     <script type="text/javascript" src="plugins/NumToChinese.js"></script>
     <script type="text/javascript" src="js/Eval.js"></script>
     <title>Terminal</title>
+    <style type="text/css">
+        #all{
+            opacity: 1;
+            position:relative;
+            width:50%;
+            z-index:100;
+        }
+    </style>
 </head>
+
 <script type="text/javascript">
     $(document).ready(
             function () {
-                FirstRun("TerminalShell","TerminalFrame","iframe");
+                FirstRun("TerminalShell", "TerminalFrame", "iframe");
                 AddTerminalEventListener();
             }
     );
@@ -27,7 +35,7 @@
         <iframe id="TerminalFrame"></iframe>
     </div>
     <div id="TerminalAll">
-        <div id="LineNumber"></div>
+        <div id="LineNumber">&nbsp;</div>
         <div id="TerminalShell"></div>
     </div>
 </div>
