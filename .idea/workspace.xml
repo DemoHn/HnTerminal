@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" name="Default" comment="ir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/AutoStart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/testkeyc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Command.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/AutoStart.js" afterPath="$PROJECT_DIR$/js/AutoStart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/TerminalIO.js" afterPath="$PROJECT_DIR$/js/TerminalIO.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HnTerminal.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370393790920" ignored="false" />
-    <file path="/TerminalIO.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370394355766" ignored="false" />
+    <file path="/TerminalIO.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370398561861" ignored="false" />
     <file path="/testkeyc.html" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370362037623" ignored="false" />
-    <file path="/AutoStart.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370395251132" ignored="false" />
-    <file path="/index.html" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370395105358" ignored="false" />
+    <file path="/AutoStart.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370398698437" ignored="false" />
+    <file path="/index.html" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370398757514" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +36,38 @@
       <file leaf-file-name="TerminalIO.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/TerminalIO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.0">
+            <state line="129" column="0" selection-start="4504" selection-end="4504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="48" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.714286">
+            <state line="15" column="28" selection-start="851" selection-end="851" vertical-scroll-proportion="0.45385778">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoStart.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AutoStart.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/AutoStart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="295" selection-end="295" vertical-scroll-proportion="0.17416546">
+            <state line="18" column="20" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#156#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Command.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Command.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="206" column="2" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#157#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,9 +93,10 @@
       <list>
         <option value="$PROJECT_DIR$/Core2.html" />
         <option value="$PROJECT_DIR$/plugins/testkeyc.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/TerminalIO.js" />
         <option value="$PROJECT_DIR$/js/AutoStart.js" />
+        <option value="$PROJECT_DIR$/js/TerminalIO.js" />
+        <option value="$PROJECT_DIR$/js/Command.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -268,7 +279,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.9596662" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -396,26 +407,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/AutoStart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.714286">
-          <folding />
+        <state line="18" column="20" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#156#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/TerminalIO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.0">
+        <state line="129" column="0" selection-start="4504" selection-end="4504" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/AutoStart.js">
+    <entry file="file://$PROJECT_DIR$/js/Command.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="295" selection-end="295" vertical-scroll-proportion="0.17416546">
+        <state line="206" column="2" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#156#0" expanded="false" />
+            <element signature="e#0#157#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="28" selection-start="851" selection-end="851" vertical-scroll-proportion="0.45385778">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,7 +8,6 @@
 $(document).ready(
     function(){
         SysInit("TerminalShell","TerminalFrame","iframe");
-        AddTerminalEventListener();
     }
 );
 
@@ -21,6 +20,28 @@ function SysInit(parent_id, iframe_id, wrapi_id) {
     IO_Config.iframe_id = iframe_id;
     IO_Config.wrapi_id = wrapi_id;
     $("#all").css("height", ($(document).height()));
-    new TerminalCore("TerminalShell").Circulate();
     cid.css("width", chei);
+    SysLog("初始化完毕！");
+    SysLog("现在开始加载自动运行程序……");
+    SysAutoStart();
+
+    new TerminalCore("TerminalShell").Circulate();
+    AddInputExpendListener();
+}
+
+function SysAutoStart(){
+    var cmd=new Command(IO_Config.parent_id);
+    var io=new TerminalIO(IO_Config.parent_id);
+    cmd.ExecCMD("About()");
+    io.Output("高考加油！<br /><br />");
+    //cmd.ExecCMD("Cls()");
+}
+
+function SysLog(text){
+    if(IO_Config.ShowSysLog=="yes"){
+        new TerminalIO(IO_Config.parent_id).Output(text+"<br />");
+        console.log(text);
+    }else{
+        console.log(text);
+    }
 }
