@@ -5,11 +5,48 @@
  * Time: 上午10:18
  * To change this template use File | Settings | File Templates.
  */
+
+var CommandSet = [
+    {"name": "about", "cmd": "About()",
+        "helpdes": "关于这个终端。"},
+    {"name": "help", "cmd": "HelpCommandAll()",
+        "helpdes": "列出命令的帮助。"},
+    {"name": "cls", "cmd": "Cls()",
+        "helpdes": "清除屏幕。"},
+    {"name": "clear", "cmd": "Cls()",
+        "helpdes": "清除屏幕。"},
+    {"name": "clsall", "cmd": "Clsall()",
+        "helpdes": "清除屏幕（包括iframe）"},
+    {"name": "clsa", "cmd": "Clsall()",
+        "helpdes": "清除屏幕（包括iframe）"},
+    {"name": "hide", "cmd": "Hide_iframe()",
+        "helpdes": "隐藏iframe"},
+    {"name": "show", "cmd": "Show_iframe()",
+        "helpdes": "显示iframe"},
+    {"name":"echo","cmd":"EchoAnchor(cmdstr)","helpdes":"显示某个行号的内容。"},
+    {"name": "sch", "cmd": "SearchInWeb(cmdstr)", "helpdes": "在网页中搜索字符。"},
+    {"name": "search", "cmd": "SearchInWeb(cmdstr)", "helpdes": "在网页中搜索字符。"},
+    {"name": "link", "cmd": "DirectToLocation(cmdstr)", "helpdes": "打开某个网址。"},
+    {"name": "eval", "cmd": "EvalMode().Process(cmdstr, 'I')", "helpdes": "打开JavaScript调试模式。"}
+];
+
+var bookmark = [
+    {"name": "csdn", "addr": "http://www.csdn.net"},
+    {"name": "w3", "addr": "http://www.w3school.com.cn"},
+    {"name": "renren", "addr": "http://www.renren.com"},
+    {"name": "ckc", "addr": "http://ckc.zju.edu.cn"},
+    {"name": "csdn", "addr": "http://www.csdn.net"},
+    {"name": "baidu", "addr": "http://www.baidu.com"},
+    {"name": "c", "addr": "http://10.77.30.30"},
+    {"name": "qscbbs", "addr": "http://www.qsc.zju.edu.cn/apps/editor_bbs/"},
+    {"name": "index", "addr": "http://demohn.web-61.com"},
+    {"name": "NULL", "addr": "http://www.baidu.com"}
+];
 //命令处理
 var Command = function (parent_id) {
     var cmdstr;
     var inputstr = "";
-    var io = TerminalIO(parent_id);
+    var io = new TerminalIO(parent_id);
     var wrapi = $("#" + IO_Config.wrapi_id);
     //显示iframe
     function Show_iframe() {

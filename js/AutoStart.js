@@ -25,6 +25,7 @@ function SysInit(parent_id, iframe_id, wrapi_id) {
     SysLog("现在开始加载自动运行程序……");
     SysAutoStart();
 
+    //加载命令提示符
     new TerminalCore("TerminalShell").Circulate();
     AddInputExpendListener();
 }
@@ -33,6 +34,7 @@ function SysAutoStart(){
     var cmd=new Command(IO_Config.parent_id);
     var io=new TerminalIO(IO_Config.parent_id);
     cmd.ExecCMD("About()");
+    io.Output("浏览器参数：<br />"+navigator.userAgent+"<br /><br />");
     io.Output("高考加油！<br /><br />");
     //cmd.ExecCMD("Cls()");
 }
