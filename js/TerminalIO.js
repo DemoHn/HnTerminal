@@ -51,20 +51,8 @@ var bookmark = [
     {"name": "NULL", "addr": "http://www.baidu.com"}
 ];
 
-
-function FirstRun(parent_id, iframe_id, wrapi_id) {
-    var regnum = /[0-9]+/;
-    var cid = $("#" + parent_id);
-    var cln = $("#LineNumber").css("width");
-    var chei = regnum.exec(cid.css("width")) - regnum.exec(cln) + "px";
-    IO_Config.parent_id = parent_id;
-    IO_Config.iframe_id = iframe_id;
-    IO_Config.wrapi_id = wrapi_id;
-    $("#all").css("height", ($(document).height()));
-    TerminalCore("TerminalShell").CIRCULATE();
-    cid.css("width", chei);
-}
-
+var InputClip;
+var OutputCilp;
 
 var TerminalIO = function (parent_id) {
     function AdjustLength(c) {
@@ -94,6 +82,9 @@ var TerminalIO = function (parent_id) {
         var cpr = $("#" + parent_id);
         var len = cpr.contents(".Output_" + css_style_name).length;
         var c;
+        if(css_style_name==undefined){
+            css_style_name=IO_Config.style.Output;
+        }
         if (text == (IO_Config.TerminalMode + ">")) {
             c = len + 1;
             cpr.append("<span class=Output_" + css_style_head + " id=Output_Head_" + c + ">" + text + "</span>" +
@@ -343,7 +334,7 @@ var TerminalCore = function (parent_id) {
     }
 
     return{
-        CIRCULATE: function () {
+        Circulate: function () {
             var txt = "";
             var cmd = Command(parent_id);
             cmd.OutForeString();
@@ -360,7 +351,7 @@ var TerminalCore = function (parent_id) {
                     keyc = window.event.keyCode;
                 }
                 if (IO_Config.linemode == "SingleLine") {
-                    if (keyc == 13 && e.ctrlKey!=true) {
+                    if (keyc == 13 && e.ctrlKey!=true) {    //Enter
                         str = cid.val();
                         cid.remove();
                         if (IO_Config.TerminalMode != "Default") {
@@ -388,7 +379,7 @@ var TerminalCore = function (parent_id) {
                 }
             });
         },
-        PROCESSINPUT: function () {
+        ProcessInput: function () {
             var pid = $("#" + parent_id);
             var keyc;
             var str = "";
@@ -455,22 +446,33 @@ function AddTerminalEventListener() {
             document.getElementById("all").focus();
         });
 
-    $(document).bind("keydown", function () {
+    $(document).bind("keyup", function () {
+        var keyc;
         var cip = $("#" + IO_Config.parent_id);
         var len = cip.contents(".Input_" + IO_Config.style.Input).length;
         document.getElementById("Input_" + len).focus();
+
+        //Tab自动补全
+        if (e.which) {
+            keyc = e.which;
+        } else if (window.event) {
+            keyc = window.event.keyCode;
+        }
+        if(keyc==9){ //TODO 因为Tab成了浏览器自动跳转的快捷键，所以搞定这事还挺麻烦的～～
+
+        }
     });
 }
 //用于eval模式的快捷函数
 //输出字符
 function o(text) {
     var io=TerminalIO(IO_Config.parent_id);
-    io.Output(text + "<br />");
+    io.Output(text + "<br />",IO_Config.style.Output);
 }
 //输入单行字符
 //TODO 修正si()的 bug
 function si() {
     TerminalIO(IO_Config.parent_id).SingleInput(IO_Config.style.Output);
-    TerminalCore(IO_Config.parent_id).PROCESSINPUT();
+    TerminalCore(IO_Config.parent_id).ProcessInput();
     TerminalIO(IO_Config.parent_id).Output("<br />", IO_Config.style.Output);
 }
