@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="style/TerminalStyle.css"/>
+    <script type="text/javascript" src="ManagePlugins.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/TerminalIO.js"></script>
+    <script type="text/javascript" src="plugins/ShowCurrentNavigator.js"></script>
+    <script type="text/javascript" src="plugins/NumToChinese.js"></script>
+    <script type="text/javascript" src="js/Eval.js"></script>
+    <title>Terminal</title>
+    <style type="text/css">
+        @-moz-keyframes demo_juhua{
+            from{opacity:0;}
+            to{opacity: 1;}
+        }
+        @-webkit-keyframes demo_juhua{
+             from{opacity:0;}
+             to{opacity: 1;}
+         }      
+        @-o-keyframes demo_juhua{
+            from{opacity:0;}
+            to{opacity: 1;}
+        }
+        #juhua{
+            opacity: 0;
+            position:relative;
+            background-image: url(present.jpg);
+            float:right;
+            width:720px;
+            height:480px;
+            z-index:0;
+        }
+        #juhua:hover{
+            animation:demo_juhua 12s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+
+            -moz-animation:demo_juhua 1s;
+            -moz-animation-direction:alternate;
+            animation-iteration-count: infinite;
+
+            -webkit-animation-direction:alternate;
+            -webkit-animation:demo_juhua 1s;
+            animation-iteration-count: infinite; 
+
+            -o-animation:demo_juhua 1s;
+            -o-animation-direction  :alternate;
+            -o-iteration-count :infinite;
+        }
+        #all{
+            opacity: 1;
+            position:relative;
+            width:50%;
+            z-index:100;
+        }
+    </style>
+</head>
+
+<script type="text/javascript">
+    $(document).ready(
+            function () {
+                FirstRun("TerminalShell", "TerminalFrame", "iframe");
+                AddTerminalEventListener();
+            }
+    );
+</script>
+<body>
+<div id="all">
+    <div id="iframe">
+        <iframe id="TerminalFrame"></iframe>
+    </div>
+    <div id="TerminalAll">
+        <div id="LineNumber">&nbsp;</div>
+        <div id="TerminalShell"></div>
+    </div>
+</div>
+</body>
+</html>
