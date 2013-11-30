@@ -16,11 +16,6 @@ var IO_Config = {
     "parent_all_id": "TerminalAll"
 };
 
-
-
-var InputClip;
-var OutputCilp;
-
 var TerminalIO = function (parent_id) {
     function AdjustLength(c) {
         var v = $("#Input_" + c);
@@ -106,11 +101,11 @@ var TerminalCore = function (parent_id) {
     return{
         Circulate: function () {
             var txt = "";
-            var cmd = Command(parent_id);
+            var cmd =new Command(parent_id);
             cmd.OutForeString();
             var pid = $("#" + parent_id);
             var keyc;
-            $(document).bind("keyup", function (e) {
+            $(document).bind("keydown", function (e) {
                 var c = pid.contents(".Input_" + IO_Config.style.Input).length;
                 var cid = $("#Input_" + c);
                 var io = TerminalIO(parent_id);
@@ -205,6 +200,7 @@ var NavLineNumber = function () {
         }
     }
 };
+
 //terminal的其他控制事件
 function AddInputExpendListener() {
     $("#all").bind("mouseenter", function () {

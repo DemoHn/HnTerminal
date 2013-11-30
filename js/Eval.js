@@ -48,9 +48,8 @@ var EvalMode = function () {
             } finally {
                 var len=$(".vir_terminal").contents().length;
                 c=len+1;
-                io.Output("<iframe src='vir_terminal/iframe.html' class='vir_terminal' id=Vir_Terminal_"+c+"></iframe><br />");
-                var obj=document.getElementById("Vir_Terminal_"+c).contentWindow;
-                obj.document.write("f");
+                io.Output(result+"<br /><br />");
+
             }
         }
     }

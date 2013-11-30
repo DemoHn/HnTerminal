@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" name="Default" comment="ir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vir_terminal/iframe.html" />
+    <list default="true" id="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" name="Default" comment="add clear as a command">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/server.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vir_terminal/iframe.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/AutoStart.js" afterPath="$PROJECT_DIR$/js/AutoStart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Command.js" afterPath="$PROJECT_DIR$/js/Command.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core2.html" afterPath="$PROJECT_DIR$/Core2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Eval.js" afterPath="$PROJECT_DIR$/js/Eval.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HnTerminal.iml" afterPath="$PROJECT_DIR$/.idea/HnTerminal.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/NumToChinese.js" afterPath="$PROJECT_DIR$/plugins/NumToChinese.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ShowCurrentNavigator.js" afterPath="$PROJECT_DIR$/plugins/ShowCurrentNavigator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/TerminalIO.js" afterPath="$PROJECT_DIR$/js/TerminalIO.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/TerminalStyle.css" afterPath="$PROJECT_DIR$/style/TerminalStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info/exclude" afterPath="$PROJECT_DIR$/info/exclude" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/testkeyc.html" afterPath="$PROJECT_DIR$/plugins/testkeyc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HnTerminal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370393790920" ignored="false" />
-    <file path="/TerminalIO.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370399670603" ignored="false" />
+    <file path="/Dummy.txt" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1373122063993" ignored="false" />
+    <file path="/TerminalIO.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1373122304116" ignored="false" />
     <file path="/testkeyc.html" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370362037623" ignored="false" />
-    <file path="/AutoStart.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370399186222" ignored="false" />
+    <file path="/AutoStart.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1373122156900" ignored="false" />
     <file path="/index.html" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370399836273" ignored="false" />
     <file path="/Command.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370399402414" ignored="false" />
     <file path="/TerminalStyle.css" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370401752753" ignored="false" />
-    <file path="/Eval.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370402478788" ignored="false" />
-    <file path="/iframe.html" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370401112204" ignored="false" />
+    <file path="/Eval.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370611206490" ignored="false" />
+    <file path="/iframe.html" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370610849335" ignored="false" />
+    <file path="/IO.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1370612203698" ignored="false" />
+    <file path="/server.js" changelist="f7bb737a-b2b8-42b3-86a8-6dd143661f9e" time="1373125564510" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +58,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Eval.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Eval.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Eval.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="44" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.52662724">
+            <state line="30" column="28" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="15" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.71428573">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoStart.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/AutoStart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="47" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,18 +88,16 @@
       <file leaf-file-name="Command.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Command.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="54" selection-start="7278" selection-end="7278" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#157#0" expanded="false" />
-              </folding>
+            <state line="82" column="49" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TerminalStyle.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/TerminalStyle.css">
+      <file leaf-file-name="TerminalIO.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/TerminalIO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="23" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+            <state line="111" column="29" selection-start="3633" selection-end="3633" vertical-scroll-proportion="0.3732504">
               <folding />
             </state>
           </provider>
@@ -90,21 +123,23 @@
       <list>
         <option value="$PROJECT_DIR$/Core2.html" />
         <option value="$PROJECT_DIR$/plugins/testkeyc.html" />
-        <option value="$PROJECT_DIR$/js/AutoStart.js" />
         <option value="$PROJECT_DIR$/js/Command.js" />
-        <option value="$PROJECT_DIR$/js/TerminalIO.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/vir_terminal/iframe.html" />
         <option value="$PROJECT_DIR$/style/TerminalStyle.css" />
+        <option value="$PROJECT_DIR$/vir_terminal/iframe.html" />
         <option value="$PROJECT_DIR$/js/Eval.js" />
+        <option value="$PROJECT_DIR$/js/IO.js" />
+        <option value="$PROJECT_DIR$/js/AutoStart.js" />
+        <option value="$PROJECT_DIR$/js/TerminalIO.js" />
+        <option value="$PROJECT_DIR$/node/server.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="x" value="47" />
+    <option name="y" value="168" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -161,35 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vir_terminal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HnTerminal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HnTerminal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HnTerminal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HnTerminal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="node" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -199,19 +206,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Projects/_JavaScript/nodeJS" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/node">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -220,7 +234,17 @@
       <option name="testName" />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -273,17 +297,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="47" y="168" width="1301" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.9596662" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.67085075" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -321,7 +345,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -359,16 +383,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/TerminalIO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="358" column="58" selection-start="11900" selection-end="11900" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="358" column="58" selection-start="11900" selection-end="11900" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="59" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="59" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/NumToChinese.js">
@@ -381,13 +401,6 @@
         <state line="15" column="41" selection-start="462" selection-end="462" vertical-scroll-proportion="0.43541363" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="63" selection-start="675" selection-end="675" vertical-scroll-proportion="0.30257186">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/testkeyc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="34" selection-start="319" selection-end="319" vertical-scroll-proportion="0.33282906" />
@@ -395,60 +408,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/info/exclude">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/TerminalStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="33" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="47" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.39513677">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/AutoStart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="31" selection-start="847" selection-end="847" vertical-scroll-proportion="0.31930333">
-          <folding>
-            <element signature="e#0#156#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="710" selection-end="710" vertical-scroll-proportion="0.45385778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/TerminalIO.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="40" selection-start="7773" selection-end="7773" vertical-scroll-proportion="0.7928994">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vir_terminal/iframe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="133" selection-end="133" vertical-scroll-proportion="0.15128593">
+        <state line="34" column="47" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Command.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="54" selection-start="7278" selection-end="7278" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#157#0" expanded="false" />
-          </folding>
+        <state line="82" column="49" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/TerminalStyle.css">
+    <entry file="file://$USER_HOME$/.WebStorm6/system/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/_stream_readable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="23" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+        <state line="728" column="2" selection-start="20725" selection-end="20725" vertical-scroll-proportion="0.33236152">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/library/node_globals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="2" selection-start="2363" selection-end="2363" vertical-scroll-proportion="-2.882615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="989" selection-end="989" vertical-scroll-proportion="0.9037901">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Eval.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="44" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.52662724">
+        <state line="30" column="28" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="15" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.71428573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/TerminalIO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="29" selection-start="3633" selection-end="3633" vertical-scroll-proportion="0.3732504">
           <folding />
         </state>
       </provider>
